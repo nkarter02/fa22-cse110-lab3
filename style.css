@@ -1,1 +1,10 @@
 /* This is a comment */
+
+body {
+    background-color: pink;
+  }
+  
+ h1 {
+    color: navy;
+    margin-left: 20px;
+  }
