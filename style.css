@@ -2,6 +2,7 @@
 
 body {
     background-color: pink;
+    max-width: 600px;
   }
   
  h1 {
@@ -45,6 +46,7 @@ body {
     border-radius: 1px;
     border-color: goldenrod;
     border-style: double;
+    max-height: 400px;
   }
 
   ol {
@@ -53,6 +55,7 @@ body {
 
   li {
     font-size: 22px;
+    height: 44px;
   }
 
   p {
@@ -66,4 +69,5 @@ body {
 
   summary {
     font-size: 4ch;
+    width: 2ch;
   }
