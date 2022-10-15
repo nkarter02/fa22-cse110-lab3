@@ -10,13 +10,31 @@ body {
   }
 
   h2 {
-    color: #fafafa
+    color: #fafafa;
+    font-size: 3pc;
   }
 
   h3 {
-    color: hsl(59, 100%, 75%)
+    color: hsl(59, 100%, 75%);
+    font-size: 1cm;
   }
 
   ol {
     background-color: green;
+  }
+
+  li {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 3vw;
+  }
+
+  strong {
+    font-size: 3.5rem;
+  }
+
+  summary {
+    font-size: 4ch;
   }
