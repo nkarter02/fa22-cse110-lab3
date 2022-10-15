@@ -6,17 +6,41 @@ body {
   
  h1 {
     color: rgb(30,30,250);
-    margin-left: 20px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 10px solid black;
   }
 
   h2 {
     color: #fafafa;
     font-size: 3pc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-color: purple;
+    border-top-style: groove;
+    border-bottom-color: violet;
+    border-bottom-style: dashed;
+    border-left-color: indigo;
+    border-left-style: dotted;
+    border-right-color: yellowgreen;
+    border-right-style: solid;
+    border-width: 0.5in;
   }
 
   h3 {
     color: hsl(59, 100%, 75%);
     font-size: 1cm;
+    margin: (10px, 10px, 10px, 14px);
+    padding: (15px, 2px, 2px, 2px);
+    border-width: 3px;
+    border-radius: 1px;
+    border-color: goldenrod;
+    border-style: double;
   }
 
   ol {
