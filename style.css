@@ -6,6 +6,7 @@ body {
   
  h1 {
     color: rgb(30,30,250);
+    text-decoration: line-through;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -31,6 +32,7 @@ body {
     border-right-color: yellowgreen;
     border-right-style: solid;
     border-width: 0.5in;
+    text-align: right;
   }
 
   h3 {
