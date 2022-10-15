@@ -52,7 +52,7 @@ body {
     max-height: 400px;
   }
 
-  ol {
+  ol:hover {
     background-color: green;
   }
 
@@ -68,7 +68,7 @@ body {
     display: block;
   }
 
-  strong {
+  strong:active {
     font-size: 3.5rem;
   }
 
