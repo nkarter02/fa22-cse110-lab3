@@ -106,3 +106,38 @@ span {
 form {
   display: grid;
 }
+
+.class {
+  color: white;
+}
+
+#id {
+  color:orange
+}
+
+* {
+  color: darkred;
+}
+
+li[target] {
+  color: yellow;
+}
+
+main li {
+  color: navajowhite;
+}
+main > h2 {
+  color: blueviolet
+}
+
+legend ~ label {
+  color: darkgreen
+}
+
+h3 + p {
+  color: blueviolet
+}
+
+li.class {
+  color: darkmagenta
+}
