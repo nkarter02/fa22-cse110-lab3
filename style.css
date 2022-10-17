@@ -10,6 +10,7 @@ body {
   order: 2;
 }
 
+
 h1 {
   color: rgb(30,30,250);
   text-decoration: line-through;
@@ -78,9 +79,17 @@ strong:active {
   font-size: 3.5rem;
 }
 
-summary {
-  font-size: 4ch;
-  width: 2ch;
+@media (min-width: 30rem) {
+  summary {
+    font-size: 4ch;
+    width: 2ch;
+  }
+}
+
+@media (max-width: 60rem) {
+  summary {
+    color: red;
+  }
 }
 
 footer {
